@@ -1,0 +1,8 @@
+run.spec
+.pytest_cache
+build/*
+.env
+spec/diploma.spec
+jenkins_data
+dist
+bin
