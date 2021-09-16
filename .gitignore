@@ -6,3 +6,5 @@ spec/diploma.spec
 jenkins_data
 dist
 bin
+__pycache__
+.idea
