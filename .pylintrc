@@ -75,6 +75,17 @@ confidence=
 # no Warning level messages displayed, use "--disable=all --enable=classes
 # --disable=W".
 disable=print-statement,
+        missing-module-docstring,
+        no-self-use,
+        missing-function-docstring,
+        no-member,
+        assigning-non-slot,
+        unused-import,
+        no-else-return,
+        redefined-builtin,
+        missing-class-docstring,
+        too-few-public-methods,
+        wrong-import-order,
         parameter-unpacking,
         unpacking-in-except,
         old-raise-syntax,
