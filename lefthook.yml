@@ -1,0 +1,6 @@
+pre-push:
+  parallel: false
+  commands:
+    jenkins:
+      run: curl http://localhost:8080/job/Local/build?token=123123
+
