@@ -1,5 +1,5 @@
 test:
-	pytest --collect-in-virtualenv spec
+	pytest --collect-in-virtualenv tests
 lint:
 	pylint --rcfile=./.pylintrc diplom/**.py
 build:
