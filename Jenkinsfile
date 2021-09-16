@@ -1,8 +1,4 @@
 pipeline {
-  agent { docker { image 'python:3.9.7' } }
-  environment {
-    CI = 'true'
-  }
   stages {
     stage('build') {
       steps {
