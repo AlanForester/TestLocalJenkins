@@ -23,7 +23,8 @@ services:
     volumes:
       - ./jenkins_data:/var/jenkins_home
       ##### Mac OS X and Linux ONLY #####
-      - /var/run/docker.sock:/var/run/docker.sock
+      - //var/run/docker.sock:/var/run/docker.sock
+    # - /var/run/docker.sock:/var/run/docker.sock
     # command: OPS
     # Testing
     # Linter
